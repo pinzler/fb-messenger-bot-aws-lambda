@@ -4,7 +4,7 @@ This tutorial assumes that you have at least some experience with AWS.  You don'
 
 ### Part 1 - Facebook Page and App
 
-Facebook [Messenger Bots](https://developers.facebook.com/docs/messenger-platform/) need to be tied to a Facebook Page so if you don't have an existing page (or just want to create a test bot first on a new page) you can create a new one [here](https://www.facebook.com/pages/create).
+Facebook [Messenger Bots](https://developers.facebook.com/docs/messenger-platform/) need to be tied to a Facebook Page so if you don't have an existing page you want to use or just want to create a test bot first on a new page you can create a new one [here](https://www.facebook.com/pages/create).  (If you are creating a dummy page for a test bot then during the page setup process feel free to press "Skip" button whenever it is available.) 
 
 Next you will need to create a new [Facebook app](https://developers.facebook.com/apps).  Once you have created that app go to the "+ Add Product" area. Find Messenger click on the "Get Started".
 
@@ -65,5 +65,7 @@ Now we need click on the "Setup Webhook" button and set the following fields:
 Once your webhook is verified, scroll down and select the Facebook page to subscribe your webhook to the page events.
 
 That's it!  Go to your facebook page, click on Message button and send something to it.  If everything worked the bot should echo the text back to you.
+
+Right now only you can access the bot.  If you want other people to be able to test it out before pushing it live you can add specific users as testers under the Roles section of the Facebook App setup page. 
 
 The index.js file has some extra functions that should help you start to build out your bot more.
