@@ -32,7 +32,7 @@ exports.handler = (event, context, callback) => {
       var sender = messagingEvent.sender.id;
       if (messagingEvent.message && messagingEvent.message.text) {
         var text = messagingEvent.message.text; 
-        console.log("Receive a message: " + text);
+        console.log("Received a message: " + text);
         
         sendTextMessage(sender, "Text received, echo: " + text);
  
