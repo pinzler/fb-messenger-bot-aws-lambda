@@ -1,4 +1,4 @@
-# Build a simple FB Messenger Bot with AWS Lamdba
+# Build a simple FB Messenger Bot with AWS Lambda
 
 This tutorial assumes that you have at least some experience with AWS.  You don't need to be an expert (I'm certainly not) but this maybe shouldn't be the very first thing you do with AWS.
 
