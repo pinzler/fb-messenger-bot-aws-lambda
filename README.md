@@ -30,7 +30,7 @@ Next — configure your function:
 * Name: a name of your function, for example "DemoBOT"
 * Description: leave as is or put in a description if you want
 * Runtime: make sure this is Node.js 4.3
-* Lambda function code: copy in the index.js code with the PAGE_TOKEN equal to the Page Access Token you got from FB and also change the VERIFY_TOKEN to whatever you want.
+* Lambda function code: copy in the index.js code in this repo but set the PAGE_TOKEN equal to the Page Access Token you got from Facebook and also change the VERIFY_TOKEN to whatever you want
 * Handler: leave as is
 * Role: Choose and exiting role and select lambda_basic_execution
 * Memory(MIB): leave as is (128)
