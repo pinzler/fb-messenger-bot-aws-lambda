@@ -55,9 +55,9 @@ Lastly, we need to deploy our API gateway. To do that just click on Actions butt
 
 ### Part 4 - Back to Facebook
 
-Time to go back to the Facebook App setup page to setup the webhook.
+Time to go back to the Facebook App setup page.
 
-Here we need to connect Facebook App with our Lambda function. You should set the following fields:
+Now we need click on the "Setup Webhook" button and set the following fields:
 * Callback URL: you need to copy your API gateway URL from your Lambda function Triggers tab
 * Verify token: make sure you put in the value that is the same as what is in the index.js file for VERIFY_TOKEN
 * Subscription fields: You can pick what you want for your bot but messages, messaging_postbacks, messaging_optins, message_deliveries should cover what we need for this simple example
